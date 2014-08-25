@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "1st test"
+time ./test_lcs 'Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia' 'Excepteur sint obcaecat cupiditat non proident, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sunt in culpa qui officia deserunt mollit anim id est laborum' 10000
+echo
+
+echo "2nd test"
+time ./test_lcs 'Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia' 'Cras gravida risus vel velit laoreet, in lacinia neque placerat. Duis bibendum tempus elit. Maecenas in nunc sed erat luctus malesuada. Sed vel velit at ipsum imperdiet iaculis nec vel lacus. Aenean sed maximus nisi. Donec euismod lorem ac felis porttitor finibus. Morbi vulputate risus nibh. In congue est risus, ut tempor metus pharetra nec. Quisque tempor, nunc rutrum rutrum mattis, nisl arcu eleifend dui, id fringilla mauris erat at lacus.' 10000
+echo
